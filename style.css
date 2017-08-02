@@ -29,11 +29,14 @@ a:hover {
 }
 
 div {
-  background: grey;
   border: 1px solid rgba(0, 0, 0, 0.1);
   box-shadow: 1px 1px 100px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
   padding: 30px;
+}
+
+.card {
+  color: :grey;
 }
 
 .image-circle {
