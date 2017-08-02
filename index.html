@@ -8,60 +8,81 @@
        <link rel = "stylesheet" href = "style.css">
   </head>
   <body>
-    <div class="container">
-      <div class="card">
-       <img class = image-circle src="images/me.jpg" alt="Profile Photo">
-        <h1>Rachael Boddy</h1>
-        <h2 class= font-light>Programmer</h2>
-        <p>After 2 years in financial consultancy working on technology projects I decided that I wanted to become one of the people who actually build the things.</p>
-      </div>
-      <div class="card">
-        <ul class = "list-inline">
-          <li>
-            <a href="https://www.linkedin.com/in/rachael-boddy-059b95b9/" target="_blank">
-              <i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin
-            </a>
-          </li>
-          <li>
-            <a href="https://www.facebook.com/rachael.boddy.56" target="_blank">
-            <i class="fa fa-facebook" aria-hidden="true"></i> Facebook
-            </a>
-          </li>
-        </ul>
-      </div>
-      <div class="card">
-        <h2 class= "card-text-centre">My Favourite Baked Goods</h2>
-          <table>
-            <tbody>
-              <tr>
-                <td>
-                  <img src="images/cookies.jpg" alt="Choc Chip Cookies" class="img-dessert">
-                </td>
-                <td>
-                  <h4 class = "text-dessert">Chocolate Chip Cookies</h4>
-                  <p class = "text-dessert">A classic that never fails to please</p>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <img src="images/millionaire.jpg" alt="Millionaire Shortbread" class="img-dessert">
-                </td>
-                <td>
-                  <h4 class = "text-dessert">Millionaire Shortbread</h4>
-                  <p class = "text-dessert">When it's good it's really really good</p>
-                </td>
-              </tr>
-              <tr>
-                <td>
-                  <img src="images/biscuit.jpg" alt="Biscuit Fudge" class="img-dessert">
-                </td>
-                <td>
-                  <h4 class = "text-dessert">Biscuit Fudge</h4>
-                  <p class = "text-dessert">The runaway winner...</p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+    <div id="sidebar">
+      <ul>
+        <li>
+          <a href="#summary">
+          <i class="fa fa-info-circle" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#links">
+          <i class="fa fa-link" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#desserts">
+          <i class="fa fa-info-cutlery" aria-hidden="true"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div id="page-content">
+      <div class="container">
+        <div class="card" id = "summary">
+         <img class = image-circle src="images/me.jpg" alt="Profile Photo">
+          <h1>Rachael Boddy</h1>
+          <h2 class= font-light>Programmer</h2>
+          <p>After 2 years in financial consultancy working on technology projects I decided that I wanted to become one of the people who actually build the things.</p>
+        </div>
+        <div class="card" id = "links">
+          <ul class = "list-inline">
+            <li>
+              <a href="https://www.linkedin.com/in/rachael-boddy-059b95b9/" target="_blank">
+                <i class="fa fa-linkedin" aria-hidden="true"></i> Linkedin
+              </a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/rachael.boddy.56" target="_blank">
+              <i class="fa fa-facebook" aria-hidden="true"></i> Facebook
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="card" id = "desserts">
+          <h2 class= "card-text-centre">My Favourite Baked Goods</h2>
+            <table>
+              <tbody>
+                <tr>
+                  <td>
+                    <img src="images/cookies.jpg" alt="Choc Chip Cookies" class="img-dessert">
+                  </td>
+                  <td>
+                    <h4 class = "text-dessert">Chocolate Chip Cookies</h4>
+                    <p class = "text-dessert">A classic that never fails to please</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src="images/millionaire.jpg" alt="Millionaire Shortbread" class="img-dessert">
+                  </td>
+                  <td>
+                    <h4 class = "text-dessert">Millionaire Shortbread</h4>
+                    <p class = "text-dessert">When it's good it's really really good</p>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <img src="images/biscuit.jpg" alt="Biscuit Fudge" class="img-dessert">
+                  </td>
+                  <td>
+                    <h4 class = "text-dessert">Biscuit Fudge</h4>
+                    <p class = "text-dessert">The runaway winner...</p>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
       </div>
    </body>
 </html>
