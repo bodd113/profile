@@ -24,19 +24,17 @@ a:hover {
 }
 
 .container {
-  width: 300px;
+  width: 700px;
   margin: 0 auto;
 }
 
-div {
+
+.card {
+  color: grey;
   border: 1px solid rgba(0, 0, 0, 0.1);
   box-shadow: 1px 1px 100px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
   padding: 30px;
-}
-
-.card {
-  color: grey;
 }
 
 .image-circle {
@@ -71,9 +69,19 @@ div {
   left: 0;
   top: 0;
   bottom: 0;
-  align-content: center;
+  text-align: center;
+}
+#sidebar ul {
+  list-style: none;
+}
+#sidebar li {
+  padding: 10px;
+}
+#sidebar i {
+  font-size: 40px;
+  text-decoration: none;
 }
 
 #page-content {
-  margin-left: 300px;
+  margin-left: 50px;
 }
