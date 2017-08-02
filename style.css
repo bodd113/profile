@@ -39,7 +39,7 @@ a:hover {
 
 .image-circle {
     border-radius: 50%;
-    align-content: center;
+    left: 25px;
 }
 
 .font-light {
