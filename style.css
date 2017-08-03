@@ -1,14 +1,14 @@
 body {
   background-color: #FECEAB;
   font-family: 'Open Sans', sans-serif ;
-  color:#FF847C;
+  color:#F98E90;
   font-size: 14px;
   line-height: 15px;
   background-image: url("images/milky.jpg");
 }
 
 h1, h2, h4 {
-  color:#3C1B1F;
+  color:#FB5660;
   font-family: 'Raleway', sans-serif;
   font-size:20px;
   line-height: 18px;
@@ -16,7 +16,7 @@ h1, h2, h4 {
 }
 
 a, i {
-  color:#2A363B;
+  color:#FB5660;
   text-decoration: underline;
 }
 
